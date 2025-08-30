@@ -43,7 +43,7 @@ function Product() {
                 ? product.description.slice(0, 100) + '...'
                 : product.description}
             </p>
-            
+            <p className='font-semibold text-2xl font-sans m-2 '>${product.price}</p>
             <button className="mt-4 bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600">
               BUY
             </button>
